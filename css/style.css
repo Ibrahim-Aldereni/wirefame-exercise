@@ -60,4 +60,47 @@ header li{
  padding: 0 12px 0 12px;
 }
 
+#row-3{
+  position: relative;
+  width: 64.3%;
+  height: 400px;
+  margin:30px auto 30px auto;
+  text-align: center;
+}
 
+#row-3 img{
+  position: absolute;
+  left: 0;
+}
+
+#row-3 article{
+  width: 45%;
+  position: absolute;
+  right: 0;
+  text-align: justify;
+}
+
+#row-3 article h3{
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+#row-3 article p{
+  font-style: italic;
+  line-height: 20px;
+}
+
+#row-3 article span{
+  color: white;
+  display: block;
+  background-color: black;
+  padding: 9px;
+  width: 150px;
+  text-align: center
+}
+
+footer{
+  height: 100px;
+  background-color: grey;
+  clear: both;
+}
