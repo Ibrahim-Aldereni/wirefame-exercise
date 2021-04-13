@@ -63,7 +63,7 @@ header li{
 
 #row-3{
   position: relative;
-  width: 64.3%;
+  width: 60em;
   height: 400px;
   margin:30px auto 30px auto;
   text-align: center;
@@ -71,14 +71,15 @@ header li{
 
 #row-3 img{
   position: absolute;
-  left: 0;
+  left: 0px;
 }
 
 #row-3 article{
-  width: 45%;
+  width: 26em;
   position: absolute;
-  right: 0;
+  right: 0px;
   text-align: justify;
+  padding-bottom: 0;
 }
 
 #row-3 article h3{
@@ -91,13 +92,15 @@ header li{
   line-height: 20px;
 }
 
-#row-3 article span{
+#row-3 span{
+  position: absolute;
+  bottom: 0;
+  right: 16.6em;
   color: white;
-  display: block;
   background-color: black;
   padding: 9px;
   width: 150px;
-  text-align: center
+  text-align: center;
 }
 
 footer{
