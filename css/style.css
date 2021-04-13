@@ -8,6 +8,8 @@ body{
   padding: 15px;
 }
 
+
+/******************** header *******************/
 header{
   background-color: grey;
   position: relative;
@@ -39,3 +41,23 @@ header li{
   padding: 30px;
   padding-right: 100px;
 }
+
+/******************** main*******************/
+
+#row-1{
+  width: 80%;
+  margin:30px auto 30px auto;
+  text-align: center;
+}
+
+#row-2{
+  width: 80%;
+  margin:30px auto 30px auto;
+  text-align: center;
+}
+
+#row-2 img{
+ padding: 0 12px 0 12px;
+}
+
+
